@@ -30,8 +30,6 @@ SECRET_KEY = 'django-insecure-gts9n&%^u&+=8%1*p(m=9@irme07t(zb3)bw#n)fy55sfqgkm0
 
 INSTALLED_APPS = [
     #Admin site Customization
-    'admin_interface',
-    'colorfield',
     
     #Default Apps
     'django.contrib.admin',
