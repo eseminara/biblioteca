@@ -13,3 +13,8 @@ class ListaAutores(ListView):
     def get_queryset(self):
         palabra_clave = self.request.GET.get('kword','')
         return Autor.objects.buscar_autor3(palabra_clave)
+
+
+
+class Prueba():
+    pass
